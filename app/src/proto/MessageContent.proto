@@ -1,0 +1,16 @@
+syntax = "proto3";
+package com.zoomtech.emm.utils.netty.newnetty;
+option java_outer_classname = "MessageContent";
+message Content {
+
+    // 对应消息类型
+    int32 msgType = 1;
+    // 序列号,一一对应
+    int32 msgId = 2;
+    // 设备ID
+    string deviceId = 3;
+    // 是否加密 , 0-否 ,1-是
+    int32 encrypt = 4;
+    // 消息内容
+    string content = 5;
+}

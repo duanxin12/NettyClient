@@ -1,0 +1,14 @@
+package com.self.client.netty;
+
+public interface NettyClientType {
+    String ISCONNECTTING = "ISCONNECTTING";
+    String CONNECTEDSUCCESS = "CONNECTEDSUCCESS";
+    String CONNECTEDFAILD = "CONNECTEDFAILD";
+    String ISLOGINNING = "ISLOGINNING";
+    String LOGINEDSUCCESS = "LOGINEDSUCCESS";
+    String LOGINEDFAILD = "LOGINEDFAILD";
+    String DISCONNECTED = "DISCONNECTED";
+    String ISRECONNECTTING = "ISRECONNECTTING";
+    String ERROR = "ERROR";
+    String NONE = "NONE";
+}
